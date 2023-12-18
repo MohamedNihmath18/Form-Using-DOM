@@ -2,8 +2,8 @@ let submit = document.getElementById("submit")
 submit.addEventListener("click",function(e){
     e.preventDefault();
     let address = [];
-    address.push(address1.value)
-    address.push(address2.value)
+    address.push(address.value)
+    
 
     let gender = document.getElementsByName("gender")
     let genderValue;
