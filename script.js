@@ -43,9 +43,8 @@ submit.addEventListener("click",function(e){
 
 let fname = document.getElementById("fname")
 let lname = document.getElementById("lname")
-let address1 = document.getElementById("address1")
-let address2 = document.getElementById("address2")
-let pin = document.getElementById("pin")
+let address1 = document.getElementById("address")
+let pincode = document.getElementById("pincode")
 let gender = document.getElementById("gender")
 let food = document.getElementById("food")
 let state = document.getElementById("state")
